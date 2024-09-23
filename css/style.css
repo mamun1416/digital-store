@@ -12628,7 +12628,16 @@ border-radius: 50px;
 background-color: #F16126;
 padding: 16px;
 }
-
+.custom-prev-next2 {
+  border-radius: 50px;
+  padding: 16px;
+  display: block;
+  width: 53px;
+  height: 53px;
+  margin-left: -52px;
+  z-index: -1;
+  background-color: #f16126;
+}
 @media only screen and (max-width: 667px) {
   .mx-auto {
     width: 100%;
