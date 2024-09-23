@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Shop</title>
+  <script defer src="/node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="/node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="/node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-light">
+    <div class="container my-2">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo/logo.svg" alt="logo" class="d-inline-block align-text-top">
+      </a>
+      <div class="col-md-3 col-sm-12 mx-auto">
+        <div class="input-group">
+          <input class="form-control border-end-0 border" type="search" value="Search for Products"
+            id="example-search-input">
+          <span class="input-group-append">
+            <button class="btn btn-outline-secondary bg-primary ms-n5" type="button">
+              <img src="assets/img/logo/search.png" alt="search" />
+            </button>
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <div class="row">
+          <div class="col-md-3">
+            <ul class="navbar-nav flex-row gap-1 mt-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/facebook.png" alt="facebook" /></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/twitter.png" alt="facebook" /></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/instragram.png" alt="facebook" /></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/youtube.png" alt="facebook" /></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="navbar-nav flex-row gap-3 mt-3">
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/telephone.png" alt="facebook" /></span>
+                  <span>+971 5123 4567</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/arabic.png" alt="facebook" /></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="navbar-nav flex-row gap-3 mt-3">
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/admin.png" alt="facebook" /></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/love.png" alt="facebook" /></span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <span class="nav-icon"><img src="assets/img/logo/cart.png" alt="facebook" /></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        
+      </div>
+    </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-menu">
+    <div class="container">
+      <div></div>
+      <div>
+        <ul class="navbar-nav flex-row gap-4">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mobiles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mobile Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Tablets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Smart Watches</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Electronics</a>
+          </li>
+
+        </ul>
+      </div>
+      <div></div>
+    </div>
+  </nav>
+
+  <div class="container-fluid bg_slider">
+      <div id="main-carousel" class="carousel" data-bs-ride="carousel" data-bs interval="false">
+        <div class="container">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-content">
+              <div class="carousel-text">
+                <h3>Mobile Collection</h3>
+                <h1>Mobile <br />Collection</h1>
+                <button class="btn carousel-cta">Shop Now</button>
+              </div>
+              <div class="carousel-img">
+                <img class="img-fluid" src="assets/img/logo/slider.png" alt="slide" />
+              </div>
+            </div>
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon custom-prev-next" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon custom-prev-next" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+
+    <div class="row">
+      <h1>Our Categories</h1>
+      <div class="col-md-5 mobile-app">
+        <img class="mobile-image" src="assets/img/logo/mobile.png" alt="#" />
+        <h3 class="mobile_text">MOBILE</h3>
+      </div>
+      <div class="col-md-7">
+        <div class="single-image">
+          <div class="mobile-box">
+            <div class="col-md-4">
+              <h1 class="text">Mobile Accessories</h1>
+            </div>
+            <div class="col-md-4 headphone">
+              <img class="img-fluid" src="assets/img/logo/headphone.png" />
+            </div>
+            <div class="col-md-4 headphone1">
+              <img class="img-fluid" src="assets/img/logo/headphone1.png" />
+            </div>
+          </div>
+          <div class="electronic-box">
+            <div class="col-md-4">
+              <h1 class="text">Electronics</h1>
+            </div>
+            <div class="col-md-4 headphone">
+              <img class="img-fluid" src="assets/img/logo/camera.png" />
+            </div>
+            <div class="col-md-4 headphone1">
+              <img class="img-fluid" src="assets/img/logo/camera1.png" />
+            </div>
+          </div>
+          <!-- <div class="camera">
+              <div class="col-md-4 text">
+                <h1>Electronics </h1>
+              </div>
+              <div class="col-md-4 headphone">
+                <img src="assets/img/logo/camera.png" />
+              </div>
+              <div class="col-md-4 headphone1">
+                <img src="assets/img/logo/camera1.png" />
+              </div>
+             </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="colmd-12">
+        <h1>Mobile Collectios</h1>
+      </div>
+    </div>
+    <div class="tab-con">
+      <div class="fade tab-pane active show" role="tabpanel" aria-hidden="false">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone11.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro <br />Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span class="first">AED <a class="price-text" href="#">3999</a></span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone11.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="product-wrap">
+              <div class="product-images">
+                <a href="#">
+                  <img class="default-img img-fluid" src="assets/img/logo/phone.png" alt="9" />
+                </a>
+                <div class="product-img-badges">
+                  <span class="pinkple"><img src="assets/img/logo/love-icon.png" /></span>
+                </div>
+              </div>
+              <div class="product-content text-center">
+                <h3>
+                  <div class="mobile-link"><a href="#">
+                      MOBILE
+                    </a>
+                  </div>
+                  <div class="apple-mobile">
+                    <a href="#">Apple iPhone 11 Pro Max - 256GB, 4G LTE, Gold</a>
+                  </div>
+                  <div class="product-price">
+                    <span>AED 3999</span>
+                    <span class="old">AED 4500</span>
+                    <span><img src="assets/img/logo/cart.png"></span>
+                  </div>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="more-product">
+            <button class="product-btn">MORE PRODUCTS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+  <div class="container-fluid image-bg">
+    <div class="container mask-field">
+      <div class="col-md-5">
+        <div class="mobile-access">
+          <h3>Mobile Accessories</h3>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="access-image">
+          <img src="assets/img/logo/accessories.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid mask-bg">
+    <div class="container">
+      <div class="row custom-padd">
+        <div class="col-md-4 mask-field">
+          <div class="mask-icon">
+            <img src="assets/img/logo/mask.png" alt="mask" />
+          </div>
+          <div class="mask-text">
+            <h3>Graded by professionals</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting...</p>
+          </div>
+        </div>
+        <div class="col-md-4 mask-field">
+          <div class="mask-icon">
+            <img src="assets/img/logo/mask.png" alt="mask" />
+          </div>
+          <div class="mask-text">
+            <h3>Graded by professionals</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting...</p>
+          </div>
+        </div>
+        <div class="col-md-4 mask-field">
+          <div class="mask-icon">
+            <img src="assets/img/logo/mask.png" alt="mask" />
+          </div>
+          <div class="mask-text">
+            <h3>Graded by professionals</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-logo">
+            <div class="logo-image">
+              <img src="assets/img/logo/logo.svg" alt="logo" />
+            </div>
+            <div class="logo-icon">
+              <img src="assets/img/logo/fa-white.png" />
+              <img src="assets/img/logo/twitter-white.png" />
+              <img src="assets/img/logo/intra-white.png" />
+              <img src="assets/img/logo/you-white.png" />
+            </div>
+          </div>
+          <div class="col-md-2 footer-menu">
+            <ul>
+              <H1>Home</H1>
+              <li>Home</li>
+              <li>about us</li>
+              <li>Contact us</li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-menu">
+            <ul>
+              <H1>products</H1>
+              <li>mobile</li>
+              <li>Mobile Accessories</li>
+              <li>Electronics</li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-menu">
+            <ul>
+              <H1>Customer support</H1>
+              <li>Customer services</li>
+              <li>FAQs</li>
+              <li>Terms & conditions</li>
+            </ul>
+          </div>
+          <div class="col-md-2 footer-menu">
+            <ul>
+              <br/>
+              <li>Privacy policy</li>
+              <li>Delivery policy</li>
+              <li>Refund policy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row footer-menu">
+          <div class="col-md-4 Copyright">
+            <p>© 2022 Digital Store . All Rights Reserved.</p>
+          </div>
+          <div class="col-md-4">
+            <img src="/assets/img/logo/payment-method 1.png" alt="">
+          </div>
+          <div class="col-md-4 Copyright">
+            <p>Website Design by: CANADA HITECH</p>
+          </div>
+        </div>
+      </div>
+      <button class="scroll-top"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+          viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M246.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 109.3 361.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160zm160 352l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L224 301.3 361.4 438.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3z" />
+        </svg></button>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+
+    <script>
+
+      $(function () {
+
+
+        var people = [];
+
+        $.getJSON('assets/data/homeProduct.json', function (data) {
+          $.each(data, function (i, f) {
+            var sestresult = "<div class='product-img-badges'>" +
+              " <span class='pinkple'>" + "Product Name" + f.product_name + "</span>" +
+              "<span class='purpleink'>" + f.price + "</span>" +
+              "<span class='purpleink'>" + f.discount + "</span>"
+            "</div>"
+            // var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
+            //  "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
+            $(sestresult).appendTo("#bestseller");
+          });
+
+        });
+        $.getJSON('assets/data/homeProduct.json', function (data) {
+          $.each(data, function (i, f) {
+
+            var tblRow = "<tr>" + "<td>" + f.product_name + "</td>" + "</tr>"
+            $(tblRow).appendTo("#bbb");
+          });
+
+        });
+
+      });
+    </script>
+</body>
+
+</html>

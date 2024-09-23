@@ -1,0 +1,58 @@
+
+[
+    {
+        "product_name": "Apple Watch 1",
+        "category": "Watch",
+        "price": 120,
+        "discount": 10,
+        "product_thumb": "/assets/img/products/watch/apple-watch-thumb.jpg",
+        "product_desc": "/assets/img/products/watch/apple-watch-large.jpg",
+        "description": "<p>This is the original Apple watch. which version is 2.35</p>",
+        "tags": ["apple", "smart watch", "new style"],
+        "slug": "watch/apple-watch-2030"
+    },
+    {
+        "product_name": "Apple Watch 2",
+        "category": "Watch",
+        "price": 120,
+        "discount": 10,
+        "product_thumb": "/assets/img/products/watch/apple-watch-thumb.jpg",
+        "product_desc": "/assets/img/products/watch/apple-watch-large.jpg",
+        "description": "<p>This is the original Apple watch. which version is 2.35</p>",
+        "tags": ["apple", "smart watch", "new style"],
+        "slug": "watch/apple-watch-2030"
+    },
+    {
+        "product_name": "Apple Watch 3",
+        "category": "Watch",
+        "price": 120,
+        "discount": 10,
+        "product_thumb": "/assets/img/products/watch/apple-watch-thumb.jpg",
+        "product_desc": "/assets/img/products/watch/apple-watch-large.jpg",
+        "description": "<p>This is the original Apple watch. which version is 2.35</p>",
+        "tags": ["apple", "smart watch", "new style"],
+        "slug": "watch/apple-watch-2030"
+    },
+    {
+        "product_name": "Apple Watch",
+        "category": "Watch",
+        "price": 120,
+        "discount": 10,
+        "product_thumb": "/assets/img/products/watch/apple-watch-thumb.jpg",
+        "product_desc": "/assets/img/products/watch/apple-watch-large.jpg",
+        "description": "<p>This is the original Apple watch. which version is 2.35</p>",
+        "tags": ["apple", "smart watch", "new style"],
+        "slug": "watch/apple-watch-2030"
+    },
+    {
+        "product_name": "Apple Watch",
+        "category": "Watch",
+        "price": 120,
+        "discount": 10,
+        "product_thumb": "/assets/img/products/watch/apple-watch-thumb.jpg",
+        "product_desc": "/assets/img/products/watch/apple-watch-large.jpg",
+        "description": "<p>This is the original Apple watch. which version is 2.35</p>",
+        "tags": ["apple", "smart watch", "new style"],
+        "slug": "watch/apple-watch-2030"
+    }
+]
