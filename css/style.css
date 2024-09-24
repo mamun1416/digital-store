@@ -101,9 +101,9 @@ body {
   justify-content: flex-end;
 }
 .bg_slider{
-background-image: linear-gradient(to bottom, #E8F5FD, #E8F5FD), url('/assets/img/logo/bg1.png') !important;;
-background-size: cover;
-background-position: center;
+background-image: url(../assets/img/bg-5.png);
+background-size: contain;
+background-position: bottom;
 background-repeat: no-repeat;
 }
 
@@ -365,6 +365,10 @@ background-repeat: no-repeat;
   background-color: #fcece6;
   margin-top: 30px;
   margin-bottom: 30px;
+  background-image: url(../assets/img/bg-8.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .mobile-access h3{
   font-size: 30px;
@@ -587,7 +591,7 @@ span > span {
   color: #a749ff;
 }
 span {
-  margin: 0px 2px;
+  margin: 0px 0px;
 }
 .sidebar-widget {
   margin-top: 50px;
@@ -1384,7 +1388,6 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  padding: 60px;
 }
 
 .img-thumbnail {
@@ -6639,6 +6642,10 @@ textarea.form-control-lg {
 }
 .mobile-box{
   display: flex;
+  background-image: url(../assets/img/bg-4.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: #fcece6;
   margin: 0px 0px 20px 20px;
   padding: 20px;
@@ -6648,8 +6655,12 @@ textarea.form-control-lg {
   display: flex;
   background-color: #fcece6;
   margin: 20px 0px 0px 20px;
-  padding: 20px;
+  padding: 20px 0px 0px 20px;
   align-items: center;
+  background-image: url(../assets/img/bg-7.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .camera{
   display: flex;
@@ -6661,8 +6672,12 @@ textarea.form-control-lg {
   text-align: center;
 }
 .mobile-app {
-  padding: 10px 10px 10px 30px;
-  background: #cbe5f2;
+  padding: 10px 10px 10px 10px;
+  background-color: #cbe5f2;
+  background-image: url(../assets/img/bg-6.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .mobile_text {
   font-size: 20px;
@@ -6671,8 +6686,10 @@ textarea.form-control-lg {
   margin-top: 10px;
 }
 .mobile-image{
-  height: 419px;
-  margin-left: 30px;
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+
 }
 .carousel-item {
   position: relative;
@@ -6777,7 +6794,7 @@ textarea.form-control-lg {
   height: 2rem;
   background-repeat: no-repeat;
   background-position: 50%;
-  background-size: 80% 80%;
+  background-size: 70% 70%;
 }
 
 /* rtl:options: {
@@ -6788,14 +6805,19 @@ textarea.form-control-lg {
     "replace" : "next"
   } ]
 } */
-/* .carousel-control-prev-icon {
-  background-image: url("assets/img/logo/arrow.png");
+.carousel-control-prev-icon {
+  background-image: url("../assets/img/prev-icon.png");
+  background-size: 30%;
+  background-position: center;
 }
 
 .carousel-control-next-icon {
-  background-image: url("assets/img/logo/arrow.png");
+  background-image: 
+  url("../assets/img/next-icon.png");
+  background-size: 30%;
+  background-position: center;
   
-} */
+} 
 
 .carousel-indicators {
   position: absolute;
@@ -12591,7 +12613,7 @@ textarea.form-control-lg {
 }
 .footer-menu{
   align-content: center;
-  padding: 50px 0px 0px;
+  padding: 50px 0px 10px 0px;
   
 }
 .footer-menu>ul>h1{
@@ -12614,6 +12636,11 @@ textarea.form-control-lg {
   display: flex;
   justify-content:space-around;
 }
+.payment-meth{
+  background-image: url(../assets/img/logo/payment-method\ 1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .footer-logo{
   align-content: end;
 }
@@ -12621,12 +12648,15 @@ textarea.form-control-lg {
   margin-bottom: 30px;
 }
 .custom-prev-next{
-width: 47px;
-height: 47px;
-border: 2px solid #fff;
-border-radius: 50px;
-background-color: #F16126;
-padding: 16px;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border:1px solid #fff;
+  border-radius:100%;
+  background-color: #F16126;
+}
+.custom-prev-next>span{
+  margin: 2px 2px!important;
 }
 .custom-prev-next2 {
   border-radius: 50px;
@@ -12643,4 +12673,125 @@ padding: 16px;
     width: 100%;
     margin-left: 10px;
   }
+  .mobile-box{
+    margin: 0px 0px 0px 0px !important;
+    margin-top: 20px !important;
+  }
+  .electronic-box{
+    margin: 0px 0px 0px 0px !important;
+    margin-top: 20px !important;
+  }
+  .mobile-access h3{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-top: 16px !important;
+  }
+  .access-image img{
+    width: 100%;
+  }
+  .pt-5{
+    padding-top: 0px !important;
+  }
+  .accessories-mobile{
+    text-align: center;
+  font-weight: 600;
+  padding-bottom: 18px;
+  }
+  .mask-icon img{
+    margin-top: 55px;
+  }
+  .mask-field{
+    margin-bottom: 20px;
+  }
+  .footer-menu {
+    align-content: center;
+        padding: 6px 0px 0px 0px;
+        width: 100%;
+  
+}
+.logo-icon{
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.collection-text{
+  padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.collection-text h1{
+  font-weight: 600;
+}
+.categories {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 20px;
+}
+.categories {
+  font-weight: 600;
+}
+.carousel-text h3 {
+  margin-left: 55px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+.carousel-cta{
+  padding: 8px !important;
+  margin-top: 0px !important;
+}
+.carousel-text h1 {
+  font-size: 19px !important;
+  line-height: 26px !important;
+  margin: 7px 0 31px !important;
+  color: #1177ad !important;
+  margin-left: 56px !important;
+}
+.custom-prev-next {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  background-color: #F16126;
+}
+.product-img-badges span{
+  padding: 15px 29px;
+}
+.navbar-nav{
+  justify-content: center;
+}
+#main-carousel .carousel-inner {
+  height: 180px;
+  margin-top: 20px;
+}
+.carousel-content {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel-control-prev, .carousel-control-next {
+  bottom: 30px;
+}
+}
+
+.custom-electronics{
+  padding: 0px;
+}
+
+.prev-butt{
+  border: 3px solid #F06F3B ;
+  border-radius: 100%;
+}
+.cust-color{
+  color: #1176AE!important;
+}
+.nav-color{
+  background-color: #1176AE!important;
 }
